@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,h2,h3,h4,h5,h6{
+    @apply text-HeaddingColor font-open_sans font-bold;
+  }
+  .p{
+    @apply text-ParagraphColor font-open_sans font-normal text-base;
+  }
+  ul,ol,li{
+    @apply list-none;
+  }
+}
+
+@layer components {
+   .paragraph{
+    @apply text-ParagraphColor font-open_sans font-bold;
+  }
+}
+@layer utilities {
+  
+   .text-40{
+    @apply text-[40px] ;
+  }
+}
+
